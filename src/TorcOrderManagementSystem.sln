@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7993E60B-E6F6-4DAB-A1FD-A69C410470D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{28B1DF0A-4A75-4058-989B-94E044233B8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7A16B220-D6D6-4BCB-B393-6B6C8142AEE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{AADB9D0F-1175-4EB5-9C42-8728778C7DCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorcOMS.Domain", "TorcOMS.Domain\TorcOMS.Domain.csproj", "{0A11AF49-3603-4B35-B6C4-DF78B5473097}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorcOMS.Data", "TorcOMS.Data\TorcOMS.Data.csproj", "{6A7C19D7-6B07-4334-8F8D-8F66D126E515}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorcOMS.Api", "TorcOMS.Api\TorcOMS.Api.csproj", "{9E0540C6-3B90-4A65-BE44-B90B91636CA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{AA1BE798-ED0A-412D-8692-37A746FCF4E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorcOMS.Application", "TorcOMS.Application\TorcOMS.Application.csproj", "{8FA1A023-6A92-47BF-8002-D95E9BFC5D43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A11AF49-3603-4B35-B6C4-DF78B5473097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A11AF49-3603-4B35-B6C4-DF78B5473097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A11AF49-3603-4B35-B6C4-DF78B5473097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A11AF49-3603-4B35-B6C4-DF78B5473097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7C19D7-6B07-4334-8F8D-8F66D126E515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7C19D7-6B07-4334-8F8D-8F66D126E515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7C19D7-6B07-4334-8F8D-8F66D126E515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7C19D7-6B07-4334-8F8D-8F66D126E515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0540C6-3B90-4A65-BE44-B90B91636CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0540C6-3B90-4A65-BE44-B90B91636CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0540C6-3B90-4A65-BE44-B90B91636CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0540C6-3B90-4A65-BE44-B90B91636CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA1A023-6A92-47BF-8002-D95E9BFC5D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA1A023-6A92-47BF-8002-D95E9BFC5D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA1A023-6A92-47BF-8002-D95E9BFC5D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA1A023-6A92-47BF-8002-D95E9BFC5D43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A11AF49-3603-4B35-B6C4-DF78B5473097} = {7A16B220-D6D6-4BCB-B393-6B6C8142AEE8}
+		{6A7C19D7-6B07-4334-8F8D-8F66D126E515} = {AADB9D0F-1175-4EB5-9C42-8728778C7DCF}
+		{9E0540C6-3B90-4A65-BE44-B90B91636CA7} = {28B1DF0A-4A75-4058-989B-94E044233B8F}
+		{8FA1A023-6A92-47BF-8002-D95E9BFC5D43} = {AA1BE798-ED0A-412D-8692-37A746FCF4E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B083F1E-1118-4FBB-B58F-DA57F1E7B657}
+	EndGlobalSection
+EndGlobal

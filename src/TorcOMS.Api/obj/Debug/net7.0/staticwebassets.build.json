@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "e8V7q9pHDwggpyKnGrCXVBorBq3Z17uR6bN3XxLn4ts=",
+  "Source": "TorcOMS.Api",
+  "BasePath": "_content/TorcOMS.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
